@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewFirstWelcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewFirstWelcomeOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/nunito"
+        android:text="@string/hello_welcome"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewSecondWelcomeTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="15"
+        android:fontFamily="@font/nunito"
+        android:text="@string/before_continuing_we_want_you_to_know_a_little_about_our_functions"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>

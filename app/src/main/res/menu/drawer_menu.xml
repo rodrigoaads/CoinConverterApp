@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stocksFragment"
+        android:title="@string/stock_exchange"
+        android:icon="@drawable/ic_baseline_upgrade"/>
+    <item
+        android:id="@+id/bitcoinFragment"
+        android:title="@string/bitcoin"
+        android:icon="@drawable/ic_baseline_currency_bitcoin"/>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/currenciesFragment">
+
+    <fragment
+        android:id="@+id/currenciesFragment"
+        android:name="com.rodrigoads.coinconverter.fragments.CurrenciesFragment"
+        android:label="Coin Converter"
+        tools:layout="@layout/fragment_currencies">
+        <action
+            android:id="@+id/action_currenciesFragment_to_converterFragment"
+            app:destination="@id/converterFragment" />
+        <action
+            android:id="@+id/action_currenciesFragment_to_stocksFragment"
+            app:destination="@id/stocksFragment" />
+        <action
+            android:id="@+id/action_currenciesFragment_to_bitcoinFragment"
+            app:destination="@id/bitcoinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/converterFragment"
+        android:name="com.rodrigoads.coinconverter.fragments.ConverterFragment"
+        android:label="Conversão"
+        tools:layout="@layout/fragment_converter"/>
+    <fragment
+        android:id="@+id/stocksFragment"
+        android:name="com.rodrigoads.coinconverter.fragments.StocksFragment"
+        android:label="Bolsa de valores"
+        tools:layout="@layout/fragment_stocks"/>
+    <fragment
+        android:id="@+id/bitcoinFragment"
+        android:name="com.rodrigoads.coinconverter.fragments.BitcoinFragment"
+        android:label="Bitcoin"
+        tools:layout="@layout/fragment_bit_coin"/>
+
+</navigation>

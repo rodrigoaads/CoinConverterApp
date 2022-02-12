@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewSecondWelcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewSecondWelcomeOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/nunito"
+        android:text="@string/in_this_app_you_can"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewSecondWelcomeTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="15"
+        android:fontFamily="@font/nunito"
+        android:text="@string/make_the_conversion_of_the_chosen_currency"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewSecondWelcomeThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="15"
+        android:fontFamily="@font/nunito"
+        android:text="@string/use_the_app_offline_with_the_latest_data_received"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewSecondWelcomeFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:fontFamily="@font/nunito"
+        android:text="@string/follow_the_index_of_some_stock_exchanges_and_the_price_of_bitcoin_in_some_brokers"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>
